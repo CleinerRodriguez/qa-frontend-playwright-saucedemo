@@ -1,0 +1,29 @@
+{
+  "name": "qa-frontend-playwright-saucedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "cucumber-js \"features/**/*.feature\" --require \"steps/**/*.js\" --require support/hooks.js --format html:cucumber-report.html"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CleinerRodriguez/qa-frontend-playwright-saucedemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CleinerRodriguez/qa-frontend-playwright-saucedemo/issues"
+  },
+  "homepage": "https://github.com/CleinerRodriguez/qa-frontend-playwright-saucedemo#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2",
+    "playwright": "^1.63.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
