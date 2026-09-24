@@ -31,7 +31,7 @@ Validar el flujo principal de compra de SauceDemo:
 
 Instala [Node.js](https://nodejs.org/) 18 o superior. npm se instala junto con Node.js.
 
-## Instalacion
+## Instalación
 
 ```bash
 git clone https://github.com/CleinerRodriguez/qa-frontend-playwright-saucedemo.git
@@ -64,9 +64,9 @@ cucumber-report.html
 
 ## Credenciales de prueba
 
-| Usuario | Contrasena | Resultado esperado |
-| --- | --- | --- |
-| `standard_user` | `secret_sauce` | Inicio de sesion exitoso |
+| Usuario           | Contraseña     | Resultado esperado           |
+| ----------------- | -------------- | ---------------------------- |
+| `standard_user`   | `secret_sauce` | Inicio de sesion exitoso     |
 | `locked_out_user` | `secret_sauce` | Mensaje de usuario bloqueado |
 
 ## Estructura del proyecto
@@ -122,5 +122,5 @@ El reporte HTML se regenera en cada ejecucion. No se requiere una base de datos 
 ## Limitaciones conocidas
 
 - La suite depende de la disponibilidad de `https://www.saucedemo.com/`.
-- Las pruebas estan disenadas para ejecutarse en modo headless.
+- Las pruebas estan diseñadas para ejecutarse en modo headless.
 - Las credenciales corresponden a las cuentas publicas de demostracion de SauceDemo.
